@@ -1,17 +1,52 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Navigation :lang="lang" @changeLang="onChangeLang" :navs="navigations" />
+    <AboutMe :content="aboutMe" id="about-me" />
+    <PartHeader :header="headers.skills" id="skills" />
+    <SkillsContainer :skills="skills" />
+    <PartHeader :header="headers.education" id="education" />
+    <EducationContainer :education="education" />
+    <PartHeader :header="headers.experience" id="experience" />
+    <ExperienceContainer :experience="experience" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import AboutMe from "./components/AboutMe";
+import Navigation from "./components/Navigation";
+import PartHeader from "./components/PartHeader";
+import SkillsContainer from "./components/SkillsContainer";
+import EducationContainer from "./components/EducationContainer";
+import ExperienceContainer from "./components/ExperienceContainer";
+
+import { mapGetters, mapMutations } from "vuex";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    AboutMe,
+    Navigation,
+    PartHeader,
+    SkillsContainer,
+    EducationContainer,
+    ExperienceContainer
+  },
+  computed: {
+    ...mapGetters([
+      "aboutMe",
+      "lang",
+      "headers",
+      "skills",
+      "education",
+      "experience",
+      "navigations"
+    ])
+  },
+  methods: {
+    ...mapMutations(["changeLang"]),
+    onChangeLang() {
+      this.changeLang();
+    }
   }
 };
 </script>
@@ -21,8 +56,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  padding-top: 20px;
 }
 </style>
