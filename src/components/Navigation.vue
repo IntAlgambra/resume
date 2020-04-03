@@ -8,6 +8,9 @@
           @click="changeLang"
           >{{ langLabel }}</a
         >
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><font-awesome-icon icon="bars" size="2x" color="#009688" />></a
+        >
         <ul
           id="nav-mobile"
           class="left hide-on-med-and-down blue-text text-darken-2"
@@ -27,6 +30,20 @@
         </ul>
       </div>
     </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li>
+        <a href="#about-me" class="black-text">{{ navs.aboutMe }}</a>
+      </li>
+      <li>
+        <a href="#skills" class="black-text">{{ navs.skills }}</a>
+      </li>
+      <li>
+        <a href="#education" class="black-text">{{ navs.education }}</a>
+      </li>
+      <li>
+        <a href="#experience" class="black-text">{{ navs.experience }}</a>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -60,5 +77,10 @@ export default {
 }
 .change-lang-img {
   height: 64px;
+}
+.sidenav-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>

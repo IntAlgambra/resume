@@ -12,6 +12,8 @@
 </template>
 
 <script>
+document.title = "Ivan Feoktistov";
+
 import AboutMe from "./components/AboutMe";
 import Navigation from "./components/Navigation";
 import PartHeader from "./components/PartHeader";

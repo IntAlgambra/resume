@@ -4,11 +4,11 @@ import store from "./store";
 
 //importing materialize styles and javascript
 import "materialize-css/dist/css/materialize.css";
-import "materialize-css/dist/js/materialize";
+import { Sidenav } from "materialize-css";
 
 //importing fontawesome icons
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
+import { faFileDownload, faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import {
   faTelegramPlane,
@@ -19,6 +19,7 @@ import {
 
 library.add(
   faFileDownload,
+  faBars,
   faTelegramPlane,
   faGithub,
   faLinkedinIn,
@@ -28,6 +29,12 @@ library.add(
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 Vue.config.productionTip = false;
+
+//initializing materialize mobile navigation
+document.addEventListener("DOMContentLoaded", function() {
+  var elems = document.querySelectorAll(".sidenav");
+  Sidenav.init(elems);
+});
 
 new Vue({
   store,
