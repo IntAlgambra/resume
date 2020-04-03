@@ -78,9 +78,12 @@ export default {
 .change-lang-img {
   height: 64px;
 }
-.sidenav-trigger {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+@media screen and (max-width: 480px) {
+  .sidenav-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 </style>
