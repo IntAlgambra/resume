@@ -2,14 +2,6 @@
   <div class="container white row z-depth-3 about-me-container" id="about-me">
     <div class="col s12 m4 photo-container">
       <img class="responsive-img" src="../assets/avatar.jpg" alt="my photo" />
-      <!-- <button
-        class="btn-large waves-effect waves-light download-button"
-        type="button"
-        name="download-resume"
-      >
-        <font-awesome-icon :icon="['fas', 'file-download']" size="lg" />
-        {{ content.buttonText }}
-      </button> -->
       <a
         href="/resume/"
         class="btn-large waves-effect waves-light download-button white-text"
@@ -60,7 +52,7 @@
             {{ content.contacts.socials }}:
           </div>
           <div class="col m2 s3 my-info-col">
-            <a href="https://github.com/IntAlgambra"
+            <a href="https://t.me/Int_Algambra"
               ><font-awesome-icon
                 :icon="['fab', 'telegram-plane']"
                 size="2x"
@@ -68,15 +60,15 @@
               />
             </a>
           </div>
-          <div class="col m2 s3 my-info-col">
-            <a href="https://github.com/IntAlgambra"
+          <!-- <div class="col m2 s3 my-info-col">
+            <a href="#"
               ><font-awesome-icon
                 :icon="['fab', 'linkedin-in']"
                 size="2x"
                 color="#009688"
               />
             </a>
-          </div>
+          </div> -->
           <div class="col m2 s3 my-info-col">
             <a href="https://github.com/IntAlgambra"
               ><font-awesome-icon
@@ -86,7 +78,7 @@
               />
             </a>
           </div>
-          <div class="col m2 s3 my-info-col">
+          <!-- <div class="col m2 s3 my-info-col">
             <a href="https://github.com/IntAlgambra"
               ><font-awesome-icon
                 :icon="['fab', 'whatsapp']"
@@ -94,7 +86,7 @@
                 color="#009688"
               />
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
