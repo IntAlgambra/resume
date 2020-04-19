@@ -44,7 +44,11 @@
           <div class="col m2 s4 my-info-col grey-text text-darken-2">
             {{ content.contacts.website }}:
           </div>
-          <div class="col m6 s8 my-info-col">www.hireme.com</div>
+          <div class="col m6 s8 my-info-col">
+            <a href="https://bassvalle.pythonanywhere.com/">
+              bassvalle.pythonanywhere.com
+            </a>
+          </div>
         </div>
 
         <div class="row">

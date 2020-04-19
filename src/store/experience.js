@@ -6,9 +6,9 @@ const experience = {
       date: "started 2018",
       functions: [
         "Executed orders of 3D design and 3D printing plastic parts",
-        "Maintaned and modernized several FDM 3D printers",
+        "Maintained and modernized several FDM 3D printers",
         "Optimized parts for FDM technology",
-        "Succesfully completed many orders from all around Russia"
+        "Completed many orders from all around Russia"
       ],
       logo: require("../assets/logo.png")
     },
@@ -17,10 +17,10 @@ const experience = {
       post: "engineer",
       date: "august 2019 - marth 2020",
       functions: [
-        "Prepared 3D parts files for 3D printing with DMLS technology",
-        "Maintaned 3D System DMP PROX 320 3D printer",
-        "Optimized parts for DMLS 3D printing technology",
-        "Succesfully learned how to work with DMLS machines, printed several hundreds samples for research."
+        "Prepared 3D parts files for 3D printing with DMLS technology.",
+        "Maintained 3D System DMP PROX 320 3D printer.",
+        "Optimized parts for DMLS 3D printing technology.",
+        "Successfully learned how to work with DMLS machines, printed several hundred samples for research."
       ],
       logo: require("../assets/ciam_logo.png")
     },
@@ -29,9 +29,9 @@ const experience = {
       post: "engineer",
       date: "june 2016 - april 2018",
       functions: [
-        "Calculated aerodynamic of turbojet engines compressor ",
-        "Developed new approaches to calculate aerodynamic of compressor blades ",
-        "Writed manuals and reports "
+        "Calculated aerodynamic of turbojet engines compressor.",
+        "Developed new approaches to calculate aerodynamic of compressor blades.",
+        "Writed manuals and reports."
       ],
       logo: require("../assets/salut-logo.png")
     }
@@ -56,8 +56,8 @@ const experience = {
       functions: [
         "Подготовка заданий на печать деталей по технологии DMLS",
         "Обслуживание и настройка принтера 3D System DMP PROX 320 3D printer",
-        "Оптимизация деталей пот требования технологии DMLS",
-        "Успешно освоил работу с новым типом оборудования и выполнил задания на печать нескольких сотен образцов"
+        "Оптимизация деталей под требования технологии DMLS",
+        "Успешно освоил работу с новым типом оборудования и выполнил печать нескольких сотен образцов"
       ],
       logo: require("../assets/ciam_logo.png")
     },
@@ -68,7 +68,7 @@ const experience = {
       functions: [
         "Производил аэродинамические расчеты компрессорной сачти ГТД",
         "Разрабатывал новые подходы к аэродинамисекому расчету лопаток компрессоров",
-        "Составлял отчеты и методические указания по результатам расетных исследжований"
+        "Составлял отчеты и методические указания по результатам исследований"
       ],
       logo: require("../assets/salut-logo.png")
     }

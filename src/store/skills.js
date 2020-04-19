@@ -6,7 +6,7 @@ const skills = {
       content: [
         "Backend development with Flask and Django frameworks ",
         "Working with databases through SQLAlchemy ORM",
-        "Programming Telegram bots",
+        "Telegram bots development",
         "Solid knowlege of OOP"
       ]
     },
@@ -16,7 +16,7 @@ const skills = {
       content: [
         "Solid knowledge of Javascript basics",
         "Asynchronous JS: promises, fetch, async/await.",
-        "Object-oriented programming (ES5 and EES6 syntax)",
+        "Object-oriented programming (ES5 and ES6 syntax)",
         "Vue.js framework, testing with Jest framework, Webpack, npm."
       ]
     },
@@ -36,7 +36,7 @@ const skills = {
       content: [
         "Setting up VDS with Apache/Nginx servers",
         "Programming Arduino (a little)",
-        "FDM 3D printing",
+        "FDM and DMLS 3D printing",
         "Git, Linux basics"
       ]
     }
@@ -46,9 +46,9 @@ const skills = {
       header: "python",
       logo: require("../assets/pythonlogo.png"),
       content: [
-        "Бекенд разработка на фреймворках Flask и Django",
-        "Работа с SQL базами данных черех SQLAlchemy ORM",
-        "Разработка телеграм-ботов",
+        "Разработка бекэнда на фреймворках Flask и Django",
+        "Работа с SQL базами данных через SQLAlchemy ORM",
+        "Разработка телеграм ботов",
         "Уверенное знание ООП"
       ]
     },
@@ -57,7 +57,7 @@ const skills = {
       logo: require("../assets/jslogo.png"),
       content: [
         "Уверенное знание основ языка",
-        "Асинхронный JS, Promises, fetch, async/avait",
+        "Асинхронный JS: Promises, fetch, async/await",
         "Объектно-ориентирование программирование в JS",
         "Vue.js фреймворк, тестирование с помощью Jest, работа с Webpack, npm."
       ]
@@ -79,7 +79,7 @@ const skills = {
         "настройка VDS с Apache/Nginx ",
         "Программирование Arduino и подобных плат",
         "3D печать (FDM и DMLS)",
-        "git, основы Linux"
+        "Git, основы Linux"
       ]
     }
   }
